@@ -19,9 +19,28 @@ Based on https://github.com/mapbox/webgl-wind (C) 2016, Mapbox
   <script src='streamlines.min.js'></script>
   <style>
     body { margin: 0; padding: 0; }
+    a.source {
+      text-decoration: none;
+      color: white;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index:2;
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
 <body>
+  <a href="https://github.com/anvaka/wind-lines" class='source'>source code</a>
 
 <script>
 // The code below renders streamlines of a windmap.
