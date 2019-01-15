@@ -39,6 +39,7 @@ The biggest challenge here was to come up with good streamline density and imple
 * If you haven't seen this yet, please check out this amazing [webgl wind demo](https://mapbox.github.io/webgl-wind/demo/) and
 a [satellite article](https://blog.mapbox.com/how-i-built-a-wind-map-with-webgl-b63022b5537f) by @mourner. It is well written
 and can be used as study material for WebGL/vector fields programming.
+* [winds animation](https://github.com/anvaka/winvelviz) - Animated winds of 2018
 * [fieldplay](https://anvaka.github.io/fieldplay/) - WebGL powered vector field editor.
 * [streamlines demo](https://anvaka.github.io/streamlines/) - canvas based demo for the streamlines library.
 
