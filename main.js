@@ -1,5 +1,5 @@
 /* globals streamlines */
-// The code below renders streamlines of a windmap.
+// The code below renders streamlines of a wind map.
 
 // First, let's set up full screen scene
 var canvas = document.createElement("canvas");
@@ -246,7 +246,7 @@ function makeGradient(stops) {
 }
 
 function loadWindMap(src) {
-  // the windmap is encoded by https://github.com/mapbox/webgl-wind/blob/master/data/prepare.js
+  // the wind map is encoded by https://github.com/mapbox/webgl-wind/blob/master/data/prepare.js
   // Only two channels are used (r and g).
   var image = new Image();
   image.crossOrigin = "";
