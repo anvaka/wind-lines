@@ -8,6 +8,14 @@ Based on https://github.com/mapbox/webgl-wind (C) 2016, Mapbox
 -->
 <html>
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TXT6313TGG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TXT6313TGG');
+</script>
   <meta charset="utf-8">
   <meta property="og:title" content="Evenly spaced wind map" />
   <meta property="og:description" content="This is just a demo for a streamlines calculation library" />
@@ -43,14 +51,6 @@ Based on https://github.com/mapbox/webgl-wind (C) 2016, Mapbox
   <a href="https://github.com/anvaka/wind-lines" class='source'>source code</a>
 
   <script src='main.js'></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-47259320-1', 'anvaka.github.io');
-  ga('send', 'pageview');
-</script>
 
 </body>
 </html>
